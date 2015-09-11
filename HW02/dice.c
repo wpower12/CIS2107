@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 #define NOTSAME 0
+#define SAME 1
 
 void rolldice( int[], int );
 int check( int[], int, int );
@@ -19,12 +20,14 @@ void main(){
 	scanf("%d", &same);
 
 	int dice[d];
+	int count = 1;
 	rolldice( dice, d );
-	printdice( dice, d );	
 	while( check( dice, d, same ) == NOTSAME ){
 		rolldice( dice, d );
-		printdice( dice, d );	
+		count++;	
 	}
+	printf("It took %d rolls\n", count );
+	printdice( dice, d );
 }
 
 void rolldice( int dice[], int num ){	
@@ -41,7 +44,7 @@ int check( int dice[], int numd, int s ){
 		for( checkd = 0; checkd < numd; checkd++ ){
 			if( !(d == checkd) && dice[d]==dice[checkd] ) count++;
 		}
-		if ( count == s ) return 1;
+		if ( count == s ) return SAME;
 	}
 	return NOTSAME;
 }

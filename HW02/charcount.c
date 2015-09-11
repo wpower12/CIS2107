@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void main(){
-	
 	char string[100];
 	int sum = 0;
 	
@@ -10,7 +9,7 @@ void main(){
 	scanf( "%s", string );
 
 	//While not empty
-	while( string[0] != '0' ){
+	while( string[0] != '\0' ){
 		int i = 0;
 		while( string[i] != '\0'){
 			sum += string[i]-'0';
