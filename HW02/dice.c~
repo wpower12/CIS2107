@@ -22,12 +22,12 @@ void main(){
 	int dice[d];
 	int count = 1;
 	rolldice( dice, d );
-	printdice( dice, d );	
 	while( check( dice, d, same ) == NOTSAME ){
 		rolldice( dice, d );
-		printdice( dice, d );
 		count++;	
 	}
+	printf("It took %d rolls\n", count );
+	printdice( dice, d );
 }
 
 void rolldice( int dice[], int num ){	
