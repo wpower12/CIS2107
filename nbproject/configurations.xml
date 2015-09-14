@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Class3">
+        <in>bell.c</in>
+        <in>charcounter.c</in>
+        <in>fahr.c</in>
+        <in>printFile.c</in>
+      </df>
+      <df name="ControlFlow">
+        <in>blocks.c</in>
+        <in>looping.c</in>
+        <in>rpn.c</in>
+      </df>
+      <df name="HW01">
+        <in>array.c</in>
+      </df>
+      <df name="HW02">
+        <in>armstrongprint.c</in>
+        <in>charcount.c</in>
+        <in>dice.c</in>
+        <in>evenoddswitch.c</in>
+        <in>str2i.c</in>
+        <in>swapdiags.c</in>
+      </df>
+      <df name="Operators">
+        <in>ops.c</in>
+        <in>order.c</in>
+      </df>
+      <df name="Recursion">
+        <in>fib.c</in>
+      </df>
+      <df name="RPNCalc">
+        <in>calc.h</in>
+        <in>getch.c</in>
+        <in>getop.c</in>
+        <in>main.c</in>
+        <in>makefile</in>
+        <in>stack.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="Class3/bell.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="Class3/charcounter.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="Class3/fahr.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="Class3/printFile.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ControlFlow/blocks.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ControlFlow/looping.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ControlFlow/rpn.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW01/array.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW02/armstrongprint.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW02/charcount.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW02/dice.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW02/evenoddswitch.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW02/str2i.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="HW02/swapdiags.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="Operators/ops.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="Operators/order.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="RPNCalc/calc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RPNCalc/getch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RPNCalc/getop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RPNCalc/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RPNCalc/makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RPNCalc/stack.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Recursion/fib.c" ex="false" tool="0" flavor2="2">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
