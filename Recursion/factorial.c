@@ -25,16 +25,19 @@ int main(int argc, char** argv) {
     return (EXIT_SUCCESS);
 }
 
+//I use like, all the stack
 int fact_rec(int n) {
     if( n==1 ) return 1;
     else return n*fact_rec(n-1);
 }
 
+//Look, my stack frame stays tiny!
 int fact_tailrec( int carry, int n  ){
     if( n==1 ) return carry;
     else return fact_tailrec( n*carry, n-1 );
 }
 
+//I am an ugly little shit
 int fact_imp(int n) {
     int i;
     int res = 1;
