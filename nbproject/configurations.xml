@@ -29,6 +29,7 @@
         <in>order.c</in>
       </df>
       <df name="Recursion">
+        <in>factorial.c</in>
         <in>fib.c</in>
       </df>
       <df name="RPNCalc">
@@ -117,6 +118,8 @@
       <item path="RPNCalc/makefile" ex="false" tool="3" flavor2="0">
       </item>
       <item path="RPNCalc/stack.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Recursion/factorial.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Recursion/fib.c" ex="false" tool="0" flavor2="2">
       </item>

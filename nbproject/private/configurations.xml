@@ -8,8 +8,6 @@
         <in>fahr.c</in>
         <in>printFile.c</in>
       </df>
-      <df name="ClassExamples">
-      </df>
       <df name="ControlFlow">
         <in>blocks.c</in>
         <in>looping.c</in>
@@ -31,6 +29,7 @@
         <in>order.c</in>
       </df>
       <df name="Recursion">
+        <in>factorial.c</in>
         <in>fib.c</in>
       </df>
       <df name="RPNCalc">
