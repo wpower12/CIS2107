@@ -2,6 +2,14 @@
 <configurationDescriptor version="95">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
+      <df name="Chp05">
+        <in>MultidimensionalArrays.c</in>
+        <in>arraysandpointers.c</in>
+        <in>chararrays.c</in>
+        <in>pointers.c</in>
+        <in>sortingchars.c</in>
+        <in>swapex.c</in>
+      </df>
       <df name="Class3">
         <in>bell.c</in>
         <in>charcounter.c</in>
@@ -23,6 +31,9 @@
         <in>evenoddswitch.c</in>
         <in>str2i.c</in>
         <in>swapdiags.c</in>
+      </df>
+      <df name="MemoryAlloc">
+        <in>allocation.c</in>
       </df>
       <df name="Operators">
         <in>ops.c</in>
@@ -76,6 +87,18 @@
           </cTool>
         </makeTool>
       </makefileType>
+      <item path="Chp05/MultidimensionalArrays.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp05/arraysandpointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp05/chararrays.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp05/pointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp05/sortingchars.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp05/swapex.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Class3/bell.c" ex="false" tool="0" flavor2="2">
       </item>
       <item path="Class3/charcounter.c" ex="false" tool="0" flavor2="2">
@@ -103,6 +126,8 @@
       <item path="HW02/str2i.c" ex="false" tool="0" flavor2="2">
       </item>
       <item path="HW02/swapdiags.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="MemoryAlloc/allocation.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Operators/ops.c" ex="false" tool="0" flavor2="2">
       </item>

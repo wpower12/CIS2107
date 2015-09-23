@@ -24,6 +24,9 @@ void printArmstrongs(int n) {
 
 int isArmstrong(int n) {
     //get number of digits
+    if( n%1000 == 0 ){
+        printf("%d \n", n);
+    }
     int digits = 0;
     int d = n;
     while (d != 0) {
