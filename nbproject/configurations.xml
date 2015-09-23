@@ -16,6 +16,9 @@
         <in>fahr.c</in>
         <in>printFile.c</in>
       </df>
+      <df name="CommandLine">
+        <in>commandline.c</in>
+      </df>
       <df name="ControlFlow">
         <in>blocks.c</in>
         <in>looping.c</in>
@@ -106,6 +109,8 @@
       <item path="Class3/fahr.c" ex="false" tool="0" flavor2="2">
       </item>
       <item path="Class3/printFile.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="CommandLine/commandline.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ControlFlow/blocks.c" ex="false" tool="0" flavor2="2">
       </item>

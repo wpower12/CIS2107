@@ -16,6 +16,9 @@
         <in>fahr.c</in>
         <in>printFile.c</in>
       </df>
+      <df name="CommandLine">
+        <in>commandline.c</in>
+      </df>
       <df name="ControlFlow">
         <in>blocks.c</in>
         <in>looping.c</in>
