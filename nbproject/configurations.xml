@@ -10,6 +10,11 @@
         <in>sortingchars.c</in>
         <in>swapex.c</in>
       </df>
+      <df name="Chp06">
+        <in>structs_pointers.c</in>
+        <in>structures.c</in>
+        <in>structures.h</in>
+      </df>
       <df name="Class3">
         <in>bell.c</in>
         <in>charcounter.c</in>
@@ -18,6 +23,7 @@
       </df>
       <df name="CommandLine">
         <in>commandline.c</in>
+        <in>functionparameters.c</in>
       </df>
       <df name="ControlFlow">
         <in>blocks.c</in>
@@ -102,6 +108,12 @@
       </item>
       <item path="Chp05/swapex.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Chp06/structs_pointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp06/structures.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Chp06/structures.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Class3/bell.c" ex="false" tool="0" flavor2="2">
       </item>
       <item path="Class3/charcounter.c" ex="false" tool="0" flavor2="2">
@@ -111,6 +123,8 @@
       <item path="Class3/printFile.c" ex="false" tool="0" flavor2="2">
       </item>
       <item path="CommandLine/commandline.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="CommandLine/functionparameters.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ControlFlow/blocks.c" ex="false" tool="0" flavor2="2">
       </item>

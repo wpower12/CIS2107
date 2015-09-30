@@ -10,6 +10,11 @@
         <in>sortingchars.c</in>
         <in>swapex.c</in>
       </df>
+      <df name="Chp06">
+        <in>structs_pointers.c</in>
+        <in>structures.c</in>
+        <in>structures.h</in>
+      </df>
       <df name="Class3">
         <in>bell.c</in>
         <in>charcounter.c</in>
@@ -18,6 +23,7 @@
       </df>
       <df name="CommandLine">
         <in>commandline.c</in>
+        <in>functionparameters.c</in>
       </df>
       <df name="ControlFlow">
         <in>blocks.c</in>
